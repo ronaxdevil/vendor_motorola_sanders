@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/motorola/sanders/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/mot_dtv_permissions.xml:system/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/etc/permissions/com.motorola.hardware.dtv.xml \
@@ -1321,7 +1320,6 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.qti.dpmframework \
     com.quicinc.cne \
-    ConnectivityExt \
     dpmapi \
     qti-vzw-ims-internal \
     rcsimssettings \
