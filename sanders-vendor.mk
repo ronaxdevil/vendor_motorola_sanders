@@ -1328,5 +1328,5 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CNEService \
     DTVPlayer \
-    DTVService
-
+    DTVService \
+    com.fingerprints.extension
