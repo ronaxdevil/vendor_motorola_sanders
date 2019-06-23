@@ -1452,7 +1452,5 @@ PRODUCT_PACKAGES += \
     WfdService \
     WfdCommon \
     DTVPlayer \
-    DTVService
-
-
-
+    DTVService \
+    com.fingerprints.extension
