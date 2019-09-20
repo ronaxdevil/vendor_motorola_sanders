@@ -1341,19 +1341,16 @@ PRODUCT_PACKAGES += \
     libqct_resampler \
     TimeService \
     embms \
-    com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
     qcrilhook \
-    com.qualcomm.location \
     ims \
     imssettings \
     qcrilmsgtunnel \
     izat.xt.srv \
     QtiTelephonyServicelibrary \
     atfwd \
-    cneapiclient \
     com.qti.dpmframework \
     com.quicinc.cne \
     dpmapi \
@@ -1362,9 +1359,7 @@ PRODUCT_PACKAGES += \
     qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient \
-    com.quicinc.cne.api-V1.0-java \
     QtiTelephonyService \
-    CNEService \
     DTVPlayer \
     DTVService \
     com.fingerprints.extension
