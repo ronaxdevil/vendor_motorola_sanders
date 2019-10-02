@@ -1305,6 +1305,7 @@ PRODUCT_PACKAGES += \
     embms \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
+    libtinycompress_vendor \
     imscmlibrary \
     qcrilhook \
     ims \
