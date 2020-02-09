@@ -1344,6 +1344,7 @@ PRODUCT_PACKAGES += \
     libtinycompress_vendor \
     imscmlibrary \
     MotCamera2 \
+    MotoSignatureApp \
     qcrilhook \
     ims \
     imssettings \
