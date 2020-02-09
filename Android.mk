@@ -51,6 +51,17 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := MotoSignatureApp
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/app/MotoSignatureApp/MotoSignatureApp.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
@@ -299,7 +310,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := MotCamera2
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/priv-app/MotCamera2/MotCamera2.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
