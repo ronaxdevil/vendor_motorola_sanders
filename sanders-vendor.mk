@@ -1375,6 +1375,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     libtinycompress_vendor \
     imscmlibrary \
+    MotCamera2 \
     qcrilhook \
     ims \
     imssettings \
