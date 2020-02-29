@@ -771,6 +771,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-gt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libQtiTether.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQtiTether.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
