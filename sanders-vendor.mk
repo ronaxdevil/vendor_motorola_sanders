@@ -1465,6 +1465,8 @@ PRODUCT_PACKAGES += \
     libgpustats \
     TimeService \
     embms \
+    com.qti.location.sdk \
+    com.qualcomm.location \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     libtinycompress_vendor \
