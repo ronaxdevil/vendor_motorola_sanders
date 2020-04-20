@@ -1306,7 +1306,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/hw/nfc_nci.pn54x.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.pn54x.so
+    vendor/motorola/sanders/proprietary/vendor/lib/hw/nfc_nci.pn54x.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.pn54x.so \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/sanders/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar
 
 # DTV Libs
 PRODUCT_COPY_FILES += \
