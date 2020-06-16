@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.google.android.tv.installed.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.tv.installed.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/afw-com.motorola.commandcenter.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/afw-com.motorola.commandcenter.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
@@ -1559,6 +1560,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     izat.xt.srv \
     QtiTelephonyServicelibrary \
+    TimeWeather \
     atfwd \
     com.quicinc.cne \
     dpmapi \
