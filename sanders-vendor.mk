@@ -1538,7 +1538,6 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     libtinycompress_vendor \
     imscmlibrary \
-    MotCamera2 \
     MotoSignatureApp \
     qcrilhook \
     ims \
